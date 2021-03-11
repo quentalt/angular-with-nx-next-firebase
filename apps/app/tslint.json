@@ -1,0 +1,20 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "projectNxNestFirebase",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "project-nx-nest-firebase",
+      "kebab-case"
+    ]
+  },
+  "linterOptions": {
+    "exclude": ["!**/*"]
+  }
+}
